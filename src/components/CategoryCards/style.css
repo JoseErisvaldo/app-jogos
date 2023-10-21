@@ -1,0 +1,27 @@
+
+#category-cards {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: center;
+}
+
+.category-cards {
+    background-color: #1D2766;
+    width: 104px;
+    height: 120px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.category-cards:hover{
+    transform: scale(1.05);
+}
+.category-cards i {
+    font-size: 80px;
+    color: rgb(255, 91, 91);
+}

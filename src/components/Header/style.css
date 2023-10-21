@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: rgba(5, 3, 38, 0.948);
+    color: white;
+}
+#nav-bar-top-user {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.user-dados{
+    font-weight: 900;
+}
+.user-dados span {
+    font-weight: 100;
+    color: rgb(144, 144, 144);
+}
+#new {
+    width: 48px;
+    height: 48px;
+    background-color: rgb(255, 9, 9);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 900;
+    border-radius: 10px;
+    transition: 0.6s ease;
+}
+#new:hover{
+    background-color: rgba(255, 9, 9, 0.793);
+    cursor: pointer;
+    color: rgb(255, 216, 216);
+    transform: scale(1.05);
+}
