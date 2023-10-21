@@ -1,5 +1,4 @@
 import './style.css'
-
 import CategoryCards from '../../components/CategoryCards'
 import ScheduledMatches from '../../components/ScheduledMatches'
 

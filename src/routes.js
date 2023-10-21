@@ -4,6 +4,7 @@ import Header from './components/Header'
 
 import Home from './pages/Home'
 import About from './pages/About'
+import Agendar from './pages/Agendar'
 
 
 function RoutesApp () {
@@ -12,7 +13,8 @@ function RoutesApp () {
             <Header/>
             <Routes>
                 <Route path='/' element={ <Home/> }></Route>
-                <Route path='/sobre' element={ <About/> }></Route>
+                <Route path='/Agendar' element={ <Agendar/> }></Route>
+
             </Routes>
 
         </BrowserRouter>
