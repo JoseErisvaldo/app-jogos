@@ -37,3 +37,18 @@
 .input-descricao  {
     height: 50px;
 }
+.scheduled-btn {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+}
+.scheduled-btn button{
+    width: 50%;
+    height: 50px;
+    border-radius: 20px;
+}
+button, i {
+    font-size: 35px;
+    color: rgb(255, 9, 9);
+}

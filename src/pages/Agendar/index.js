@@ -33,6 +33,9 @@ function Agendar () {
                         Descrição
                         <input className='input-descricao' type='text'/>
                     </div>
+                    <div className='scheduled-btn'>
+                        <button>  <i class='bx bx-right-arrow-alt' ></i></button>
+                    </div>
                 </div>
             </div>
         </div>
