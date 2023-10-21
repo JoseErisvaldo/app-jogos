@@ -48,7 +48,8 @@
     height: 50px;
     border-radius: 20px;
 }
-button, i {
-    font-size: 35px;
+button,.link-btn {
+    font-size: 20px;
     color: rgb(255, 9, 9);
+    text-decoration: none;
 }

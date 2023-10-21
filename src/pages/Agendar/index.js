@@ -34,7 +34,7 @@ function Agendar () {
                         <input className='input-descricao' type='text'/>
                     </div>
                     <div className='scheduled-btn'>
-                        <button>  <i class='bx bx-right-arrow-alt' ></i></button>
+                        <button> <Link to="/newsala" className='link-btn'>Agendar</Link></button>
                     </div>
                 </div>
             </div>
