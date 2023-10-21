@@ -9,7 +9,7 @@ import About from './pages/About'
 function RoutesApp () {
     return(
         <BrowserRouter>
-            <Header/>
+            
             <Routes>
                 <Route path='/' element={ <Home/> }></Route>
                 <Route path='/sobre' element={ <About/> }></Route>
