@@ -22,21 +22,21 @@ function ViewSala () {
                 <div className="view-sala-jogadores-jogador"><img src="" alt="Jogador"></img></div>
                 <div className="view-sala-status-jogadores">
                     <h3>José Erisvaldo</h3>
-                    <h5>Disponivel</h5>
+                    <h5 className="disponivel"><i class='bx bxs-color' />Disponivel</h5>
                 </div>
             </div>
             <div className="view-sala-jogadores">
                 <div className="view-sala-jogadores-jogador"><img src="" alt="Jogador"></img></div>
                 <div className="view-sala-status-jogadores">
-                    <h3>José Erisvaldo</h3>
-                    <h5>Disponivel</h5>
+                    <h3>Lucia Maria</h3>
+                    <h5 className="ocupado"><i class='bx bxs-color'/>Ocupado</h5>
                 </div>
             </div>
             <div className="view-sala-jogadores">
                 <div className="view-sala-jogadores-jogador"><img src="" alt="Jogador"></img></div>
                 <div className="view-sala-status-jogadores">
-                    <h3>José Erisvaldo</h3>
-                    <h5>Disponivel</h5>
+                    <h3>Thor</h3>
+                    <h5 className="indisponivel"><i class='bx bxs-color' ></i>Indisponivel</h5>
                 </div>
             </div>
 

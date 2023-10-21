@@ -48,3 +48,15 @@
 .view-sala-status-jogadores {
     width: 75%;
 }
+.disponivel i {
+    color: green;
+    padding: 5px;
+}
+.ocupado i {
+    color: orange;
+    padding: 5px;
+}
+.indisponivel i {
+    color: rgb(255, 255, 0);
+    padding: 5px;
+}
