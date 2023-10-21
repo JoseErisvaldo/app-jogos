@@ -1,0 +1,19 @@
+
+.nav-partida {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: rgba(5, 3, 38, 0.534);
+}
+.link {
+    color: white;
+    width: 100px;
+}
+.link i {
+    font-size: 35px;
+}
+.nav-partida h2 {
+    text-align: center;
+    width: 100%;
+}
