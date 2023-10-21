@@ -1,5 +1,39 @@
-
+.nav-agendar {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: rgba(5, 3, 38, 0.534);
+}
 .link {
     color: white;
-    text-decoration: none;
+    width: 100px;
+}
+.link i {
+    font-size: 35px;
+}
+.nav-agendar h2 {
+    text-align: center;
+    width: 100%;
+}
+.forms-scheduled {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.forms-scheduled select, .date-scheduled{
+    width: 80%;
+    margin: 5px;
+}
+.date-scheduled input {
+    width: 100%;
+}
+.date-scheduled, input{
+    margin: 10px 0;
+}
+.input-descricao  {
+    height: 50px;
 }
