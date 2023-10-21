@@ -1,4 +1,5 @@
 import './style.css'
+import { Link } from 'react-router-dom'
 function ScheduledMatches () {
     return(
         <div id="container-scheduled">
@@ -6,6 +7,8 @@ function ScheduledMatches () {
                 <h3 className="title-scheduled">Partidas Agendadas</h3>
                 <div className="total-scheduled">Total: 4</div>
             </div>
+
+            <Link to="/viewsala" className='link-scheduled'>
             <div id='cards-scheduled'>
                 <img src='' alt='Foto Lendários' ></img> 
                 <div className='dados-cards'>
@@ -26,6 +29,8 @@ function ScheduledMatches () {
                     </div>
                 </div>
             </div>
+            </Link>
+            <Link to="/viewsala" className='link-scheduled'>
             <div id='cards-scheduled'>
                 <img src='' alt='Foto Yeah' ></img> 
                 <div className='dados-cards'>
@@ -46,6 +51,8 @@ function ScheduledMatches () {
                     </div>
                 </div>
             </div>
+            </Link>
+            <Link to="/viewsala" className='link-scheduled'>
             <div id='cards-scheduled'>
                 <img src='' alt='Foto Rumo' ></img> 
                 <div className='dados-cards'>
@@ -66,6 +73,8 @@ function ScheduledMatches () {
                     </div>
                 </div>
             </div>
+            </Link>
+            <Link to="/viewsala" className='link-scheduled'>
             <div id='cards-scheduled'>
                 <img src='' alt='Foto Bora' ></img> 
                 <div className='dados-cards'>
@@ -86,7 +95,7 @@ function ScheduledMatches () {
                     </div>
                 </div>
             </div>
-            
+            </Link>
              
         </div>
     )

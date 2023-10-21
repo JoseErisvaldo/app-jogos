@@ -17,3 +17,34 @@
     text-align: center;
     width: 100%;
 }
+.container-view-sala {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.view-sala-img {
+    height: 234px;
+}
+.container-view-sala img {
+}
+.view-sala-status {
+    display: flex;
+    justify-content: space-between;
+}
+.view-sala-status h3 {
+    color: rgb(144, 144, 144);
+}
+.view-sala-jogadores {
+    background-color: rgba(0, 0, 255, 0.068);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+.view-sala-jogadores-jogador {
+    width: 80px;
+    height: 80px;
+}
+.view-sala-status-jogadores {
+    width: 75%;
+}

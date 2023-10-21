@@ -56,3 +56,7 @@
 .dados-status .status-total div i {
     color: red;
 }
+.link-scheduled {
+    text-decoration: none;
+    color: aliceblue;
+}
